@@ -4,8 +4,8 @@ Dockerfile and build context for Anduril 1.2.23 on top of Debian Wheezy (7.8).
 
 # Bundles
 
-* Installed: `Microarray`, `Tools`, `Sequencing`
-* Not installed: `Anima`, `GROK`, `CookBook`.
+* Installed: `Microarray` `Tools` `Sequencing`
+* Not installed: `Anima` `GROK` `CookBook`
 * Not installed: `Moksiskaan` (use [anduril-moksiskaan](https://github.com/Gig77/anduril-moksiskaan) instead)
 
 # Additional features
