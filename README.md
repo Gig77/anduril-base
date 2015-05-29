@@ -7,7 +7,9 @@ Dockerfile and build context for Anduril 1.2.23 on top of Debian Wheezy (7.8).
     git clone https://github.com/Gig77/anduril-base/
     cd anduril-base
     bash ./build.sh
-    
+
+Note that installation via Dockerfile takes several hours, mostly due to _many_ R packages being installed. There is also a pre-built image availabe at Dockerhub, which can be installed faster using `docker pull cfrech/anduril-base`.
+
 ## Bundles
 
 * Installed: `Microarray` `Tools` `Sequencing`
