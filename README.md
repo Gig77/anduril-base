@@ -16,10 +16,12 @@ Note that installation via Dockerfile takes several hours, mostly due to _many_ 
 * Not installed: `Anima` `GROK` `CookBook`
 * Not installed: `Moksiskaan` (use [anduril-moksiskaan](https://github.com/Gig77/anduril-moksiskaan) instead)
 
-## Additional features
+## Configuration
 
 * R version 3.2.0 (2015-04-16)
 * Bioconductor version 3.1 (BiocInstaller 1.18.2)
 * Locale `en_US.UTF-8`
+
+## Features
 * Passwordless login with user `anduril` (sudoer)
 
