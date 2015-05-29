@@ -1,9 +1,12 @@
-Debian-based (Wheezy 7.8) docker image with Anduril 1.2.23
+# anduril-base
+
+Dockerfile and build context for Anduril 1.2.23 on top of Debian Wheezy (7.8).
 
 # Bundles
 
 * Installed: `Microarray`, `Tools`, `Sequencing`
 * Not installed: `Anima`, `GROK`, `CookBook`.
+* Moksiskaan not installed (use [anduril-moksiskaan](https://github.com/Gig77/anduril-moksiskaan) instead)
 
 # Additional features
 
