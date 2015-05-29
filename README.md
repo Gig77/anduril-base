@@ -23,5 +23,5 @@ Note that installation via Dockerfile takes several hours, mostly due to _many_ 
 * Locale `en_US.UTF-8`
 
 ## Features
-* Passwordless login with user `anduril` (sudoer)
+* Password-less login with user `anduril` (sudoer)
 
