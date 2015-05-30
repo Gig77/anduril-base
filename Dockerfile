@@ -29,7 +29,7 @@ RUN echo 'deb http://csbl.fimm.fi/linux/ binary/' > /etc/apt/sources.list.d/andu
     wget http://csbl.fimm.fi/linux/anduril_pub.gpg -O - | apt-key add -
 RUN apt-get update && apt-get install -y \
 	python-dev \
-	libopenmpi-dev \
+	r-cran-rmpi \
 	anduril-local-installer
 
 # Anduril bundles
