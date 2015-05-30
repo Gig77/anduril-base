@@ -1,14 +1,26 @@
 # anduril-base
 
-Dockerfile and build context for Anduril 1.2.23 on top of Debian Wheezy (7.8).
+[Anduril](http://www.anduril.org/anduril/site/) workflow engine (version 1.2) built on top of Debian Wheezy.
 
 ## Installation
 
+### Via Dockerhub
+
+    docker pull cfrech/anduril-base
+    
+The total image size is ~7 Gb, so download may take a while.
+
+### Via Dockerfile
+
     git clone https://github.com/Gig77/anduril-base/
     cd anduril-base
-    bash ./build.sh
+    docker build -t cfrech/anduril-base .
 
-Note that installation via Dockerfile takes several hours, mostly due to _many_ R packages being installed. A pre-built image is availabe at [Dockerhub](https://registry.hub.docker.com/u/cfrech/anduril-base/), which can be installed faster using `docker pull cfrech/anduril-base`.
+Installation via Dockerfile takes 2-3 hours due to the _many_ Debian and R packages being installed.
+
+### Test
+
+    docker run --rm -u anduril cfrech/anduril-base anduril --version
 
 ## Bundles
 
@@ -18,11 +30,13 @@ Note that installation via Dockerfile takes several hours, mostly due to _many_ 
 
 ## Configuration
 
-* R version 3.2.0 (2015-04-16)
-* Bioconductor version 3.1 (BiocInstaller 1.18.2)
+* Anduril 1.2.23
+* Debian 7.8
+* R 3.2.0 (2015-04-16)
+* Bioconductor 3.1 (BiocInstaller 1.18.2)
 * Locale `en_US.UTF-8`
 
 ## Features
+
 * Password-less login with user `anduril` (sudoer)
-* Images size: ~7 Gb
 
