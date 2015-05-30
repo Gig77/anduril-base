@@ -8,7 +8,7 @@
 
     docker pull cfrech/anduril-base
     
-The total image size is ~7 Gb, so download may take a while.
+Total image size is ~7 Gb, so download may take a while.
 
 ### Via Dockerfile
 
