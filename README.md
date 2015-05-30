@@ -13,7 +13,7 @@ Note that installation via Dockerfile takes several hours, mostly due to _many_ 
 ## Bundles
 
 * Installed: `Microarray` `Tools` `Sequencing`
-* Not installed: `Anima` `GROK` `CookBook`
+* Not installed: `Anima` `GROK` `CookBook` `TCGA`
 * Not installed: `Moksiskaan` (use [anduril-moksiskaan](https://github.com/Gig77/anduril-moksiskaan) instead)
 
 ## Configuration
