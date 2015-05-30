@@ -6,7 +6,7 @@
 
 ### Via Dockerhub
 
-A pre-built version of this image is available at [Dockerhub](https://registry.hub.docker.com/u/cfrech/anduril-base/) and can be intalled with:
+A pre-built version of this image can be installed from [Dockerhub](https://registry.hub.docker.com/u/cfrech/anduril-base/) via:
 
     docker pull cfrech/anduril-base
     
