@@ -26,7 +26,7 @@ Installation via Dockerfile takes 2-3 hours due to the _many_ Debian and R packa
 
 * Installed: `Microarray` `Tools` `Sequencing`
 * Not installed: `Anima` `GROK` `CookBook` `TCGA`
-* Not installed: `Moksiskaan` (use [anduril-moksiskaan](https://github.com/Gig77/anduril-moksiskaan) instead)
+* Not installed: `Moksiskaan` (available as separate Docker image [anduril-moksiskaan](https://github.com/Gig77/anduril-moksiskaan))
 
 ## Configuration
 
