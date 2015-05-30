@@ -24,4 +24,5 @@ Note that installation via Dockerfile takes several hours, mostly due to _many_ 
 
 ## Features
 * Password-less login with user `anduril` (sudoer)
+* Images size: ~7 Gb
 
