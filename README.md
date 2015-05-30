@@ -1,6 +1,6 @@
 # anduril-base
 
-Docker image of [Anduril](http://www.anduril.org/anduril/site/) workflow engine (version 1.2) built on top of Debian Wheezy.
+[Anduril](http://www.anduril.org/anduril/site/) workflow engine (version 1.2) built on top of Debian Wheezy.
 
 ## Installation
 
