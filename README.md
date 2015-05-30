@@ -1,12 +1,14 @@
 # anduril-base
 
-[Anduril](http://www.anduril.org/anduril/site/) workflow engine (version 1.2) built on top of Debian Wheezy.
+Docker image of [Anduril](http://www.anduril.org/anduril/site/) workflow engine (version 1.2) built on top of Debian Wheezy.
 
 ## Installation
 
 ### Via Dockerhub
 
-    docker pull [cfrech/anduril-base](https://registry.hub.docker.com/u/cfrech/anduril-base/)
+A pre-built version of this image is available at [Dockerhub](https://registry.hub.docker.com/u/cfrech/anduril-base/) and can be intalled with:
+
+    docker pull cfrech/anduril-base
     
 Total image size is ~7 Gb, so download may take a while.
 
