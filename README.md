@@ -18,7 +18,7 @@ Total image size is ~7 Gb, so download may take a while.
     cd anduril-base
     docker build -t cfrech/anduril-base .
 
-Installation via Dockerfile takes 2-3 hours due to the _many_ Debian and R packages being installed.
+Installation via Dockerfile takes 2-3 hours due to many Debian and R packages being installed.
 
 ### Test
 
