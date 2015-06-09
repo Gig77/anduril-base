@@ -1,6 +1,6 @@
 # anduril-base
 
-[Anduril](http://www.anduril.org/anduril/site/) workflow engine (version 1.2) built on top of Debian Wheezy.
+[Anduril](http://www.anduril.org/anduril/site/) workflow engine (version 1.2) docker image built on top of Debian Wheezy.
 
 ## Installation
 
@@ -28,7 +28,7 @@ Installation via Dockerfile takes 2-3 hours due to many Debian and R packages be
 
 * Installed: `Microarray` `Tools` `Sequencing`
 * Not installed: `Anima` `GROK` `CookBook` `TCGA`
-* Not installed: `Moksiskaan` (available as separate Docker image [anduril-moksiskaan](https://github.com/Gig77/anduril-moksiskaan))
+* Not installed: `Moksiskaan` (coming soon as derived image)
 
 ## Configuration
 
