@@ -42,3 +42,7 @@ Installation via Dockerfile takes 2-3 hours due to many Debian and R packages be
 
 * Password-less login with user `anduril` (sudoer)
 
+## Reference
+
+* Kristian Ovaska, Marko Laakso et al. Large-scale data integration framework provides a comprehensive view on glioblastoma multiforme. Genome Medicine 2010, 2:65.
+* http://www.anduril.org/anduril/site/
