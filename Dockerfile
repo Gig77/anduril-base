@@ -21,12 +21,18 @@ ENV LANG en_US.UTF-8
 
 RUN echo 'deb http://cran.at.r-project.org/bin/linux/debian wheezy-cran3/' >> /etc/apt/sources.list && \
     gpg --keyserver pgp.mit.edu --recv-keys 06F90DE5381BA480 && \
-    gpg --armor --export 06F90DE5381BA480 | apt-key add -
+    gpg --armor --export 06F90DE5381BA480 | apt-key add - && \
+    apt-get update && apt-get install -y r-base
+
+# utilize all CPUs when installing R packages
+
+RUN sed -i "s/MAKE=.*/MAKE='make -j $(nproc)'/" $(R --vanilla --slave -e 'write(R.home(), stdout())')/etc/Renviron
 
 # packages required by Anduril
 
 RUN echo 'deb http://csbl.fimm.fi/linux/ binary/' > /etc/apt/sources.list.d/anduril.list  && \
     wget http://csbl.fimm.fi/linux/anduril_pub.gpg -O - | apt-key add -
+
 RUN apt-get update && apt-get install -y \
 	python-dev \
 	r-cran-rmpi \
