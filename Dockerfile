@@ -52,6 +52,7 @@ ENV ANDURIL_HOME /usr/local/share/anduril
 ENV ANDURIL_BUNDLES /usr/local/share/anduril-bundles
 ENV SCALA_HOME /usr/local/share/scala
 ENV PATH $SCALA_HOME/bin:$PATH:$ANDURIL_HOME/bin:$ANDURIL_HOME/utils
+ENV PYTHONPATH /usr/local/share/anduril/python:$PYTHONPATH
 
 # Anduril user
 
